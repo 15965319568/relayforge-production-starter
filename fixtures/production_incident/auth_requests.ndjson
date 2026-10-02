@@ -1,0 +1,7 @@
+{"at":"2026-11-08T10:00:44Z","credential_id":"cred_ops_01","method":"POST","path":"/v1/workers/register","request_id":"req_ops_203","scope":"operator","status":201,"tenant_id":null}
+{"at":"2026-11-08T10:00:46Z","credential_id":"cred_ops_01","method":"POST","path":"/v1/workers/worker-az1-09/drain","request_id":"req_ops_204","scope":"operator","status":200,"tenant_id":null}
+{"at":"2026-11-08T10:02:00Z","credential_id":"cred_north_04","method":"GET","path":"/v1/audit","request_id":"req_tenant_801","scope":"audit:read","status":200,"tenant_id":"org-north"}
+{"at":"2026-11-08T10:02:03Z","credential_id":"cred_north_04","method":"GET","path":"/v1/audit","request_id":"req_tenant_802","scope":"audit:read","status":403,"tenant_id":"org-south"}
+{"at":"2026-11-08T10:02:07Z","credential_id":"cred_revoked_02","method":"POST","path":"/v1/replay-jobs","request_id":"req_tenant_803","scope":"replay:write","status":401,"tenant_id":"org-north"}
+{"at":"2026-11-08T10:04:00Z","credential_id":null,"method":"GET","path":"/live","request_id":"req_probe_901","scope":null,"status":200,"tenant_id":null}
+{"at":"2026-11-08T10:04:01Z","credential_id":null,"method":"GET","path":"/ready","request_id":"req_probe_902","scope":null,"status":503,"tenant_id":null}

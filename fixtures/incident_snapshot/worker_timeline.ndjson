@@ -1,0 +1,15 @@
+{"ts":"2026-09-20T08:43:12.420Z","level":"info","worker":"worker-03","pid":18412,"event":"delivery.claimed","delivery_id":"dlv_01J8QAQ2H6JYYR6X13X45QTYM0","tenant_id":"org_7d83f1","lease":"lease-A","lease_until":"2026-09-20T08:43:42Z","attempt":1}
+{"ts":"2026-09-20T08:43:12.428Z","level":"info","worker":"worker-03","pid":18412,"event":"http.start","delivery_id":"dlv_01J8QAQ2H6JYYR6X13X45QTYM0","attempt":1,"host":"audit-gw.example.net"}
+{"ts":"2026-09-20T08:43:40.901Z","level":"warn","worker":"worker-03","pid":18412,"event":"http.slow","delivery_id":"dlv_01J8QAQ2H6JYYR6X13X45QTYM0","elapsed_ms":28473}
+{"ts":"2026-09-20T08:43:42.000Z","level":"info","worker":"worker-03","pid":18412,"event":"lease.expired_local","delivery_id":"dlv_01J8QAQ2H6JYYR6X13X45QTYM0","lease":"lease-A"}
+{"ts":"2026-09-20T08:43:44.116Z","level":"info","worker":"worker-07","pid":20108,"event":"delivery.claimed","delivery_id":"dlv_01J8QAQ2H6JYYR6X13X45QTYM0","tenant_id":"org_7d83f1","lease":"lease-B","lease_until":"2026-09-20T08:44:14Z","attempt":2}
+{"ts":"2026-09-20T08:43:44.123Z","level":"info","worker":"worker-07","pid":20108,"event":"http.start","delivery_id":"dlv_01J8QAQ2H6JYYR6X13X45QTYM0","attempt":2,"host":"audit-gw.example.net"}
+{"ts":"2026-09-20T08:43:47.008Z","level":"info","worker":"worker-03","pid":18412,"event":"http.finish","delivery_id":"dlv_01J8QAQ2H6JYYR6X13X45QTYM0","attempt":1,"status":204,"elapsed_ms":34580,"request_id":"rq_7c91e2"}
+{"ts":"2026-09-20T08:43:47.014Z","level":"info","worker":"worker-03","pid":18412,"event":"delivery.finalized","delivery_id":"dlv_01J8QAQ2H6JYYR6X13X45QTYM0","lease":"lease-A","state":"succeeded"}
+{"ts":"2026-09-20T08:43:49.662Z","level":"info","worker":"worker-07","pid":20108,"event":"http.finish","delivery_id":"dlv_01J8QAQ2H6JYYR6X13X45QTYM0","attempt":2,"status":204,"elapsed_ms":5539,"request_id":"rq_1038bd"}
+{"ts":"2026-09-20T08:43:49.668Z","level":"info","worker":"worker-07","pid":20108,"event":"delivery.finalized","delivery_id":"dlv_01J8QAQ2H6JYYR6X13X45QTYM0","lease":"lease-B","state":"succeeded"}
+{"ts":"2026-09-20T08:44:02.332Z","level":"warn","worker":"worker-06","pid":19772,"event":"http.finish","delivery_id":"dlv_01J8QAR8V2GNEF9A9Q4WEX24CC","attempt":2,"status":429,"retry_after":"Sun, 20 Sep 2026 08:46:02 GMT","elapsed_ms":332}
+{"ts":"2026-09-20T08:44:02.337Z","level":"error","worker":"worker-06","pid":19772,"event":"delivery.finalized","delivery_id":"dlv_01J8QAR8V2GNEF9A9Q4WEX24CC","state":"dead","reason":"http:429"}
+{"ts":"2026-09-20T08:45:11.004Z","level":"info","worker":"worker-02","pid":17620,"event":"batch.complete","claimed":25,"succeeded":19,"retried":6,"dead":0,"tenant_count":1,"elapsed_ms":6821}
+{"ts":"2026-09-20T08:45:18.108Z","level":"info","worker":"worker-04","pid":18940,"event":"batch.complete","claimed":25,"succeeded":22,"retried":3,"dead":0,"tenant_count":1,"elapsed_ms":7098}
+{"ts":"2026-09-20T08:45:24.840Z","level":"info","worker":"worker-01","pid":17104,"event":"batch.complete","claimed":25,"succeeded":20,"retried":5,"dead":0,"tenant_count":1,"elapsed_ms":6719}

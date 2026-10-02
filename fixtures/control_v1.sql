@@ -1,0 +1,17 @@
+CREATE TABLE control_meta (version INTEGER NOT NULL);
+INSERT INTO control_meta(version) VALUES (1);
+
+CREATE TABLE subscriptions (
+    id TEXT PRIMARY KEY,
+    tenant_id TEXT NOT NULL,
+    endpoint_id TEXT NOT NULL,
+    topic_pattern TEXT NOT NULL,
+    enabled INTEGER NOT NULL,
+    created_at TEXT NOT NULL
+);
+
+INSERT INTO subscriptions VALUES
+('sub_01J9KX17TB3CFV77VX96M3B8Q2','org_7d83f1','ep_01J8K4F3P8P8M7Q2KCPZ0V7M2A','payment.*',1,'2026-09-27T06:31:20Z'),
+('sub_01J9KX2AFN4B08QW8W0YPS5SR4','org_7d83f1','ep_01J8K4H77TGBHFF2B2ME9P1VMT','refund.#',1,'2026-09-27T06:32:02Z'),
+('sub_01J9KX3N6H82EAT0W6J9KABVM7','org_c91a20','ep_01J8M0CFVK2HE2D62JAA0NCQ1G','invoice.*',0,'2026-09-27T06:33:17Z');
+

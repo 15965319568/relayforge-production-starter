@@ -1,0 +1,10 @@
+{"at":"2026-11-08T10:05:00Z","event":"scan_started","run_id":"scan_prod_41"}
+{"at":"2026-11-08T10:05:01Z","code":"STALE_DISPATCH_ADMISSION","entity_id":"dlv_prod_008","event":"finding","run_id":"scan_prod_41","severity":"warning"}
+{"at":"2026-11-08T10:05:01Z","code":"REPLAY_COUNTER_MISMATCH","entity_id":"replay_prod_12","event":"finding","run_id":"scan_prod_41","severity":"warning"}
+{"action_count":2,"at":"2026-11-08T10:05:04Z","event":"repair_plan_created","plan_id":"repair_prod_41","run_id":"scan_prod_41"}
+{"at":"2026-11-08T10:05:09Z","event":"repair_plan_stale","plan_id":"repair_prod_41","run_id":"scan_prod_41"}
+{"at":"2026-11-08T10:06:00Z","event":"scan_started","run_id":"scan_prod_42"}
+{"action_count":1,"at":"2026-11-08T10:06:03Z","event":"repair_plan_created","plan_id":"repair_prod_42","run_id":"scan_prod_42"}
+{"applied_actions":1,"at":"2026-11-08T10:06:04Z","event":"repair_plan_applied","plan_id":"repair_prod_42","run_id":"scan_prod_42"}
+{"at":"2026-11-08T10:07:00Z","backup_id":"backup_prod_77","event":"backup_started"}
+{"at":"2026-11-08T10:07:01Z","backup_id":"backup_prod_77","event":"backup_published","size_bytes":184320}

@@ -1,0 +1,9 @@
+{"at":"2026-11-08T09:59:55Z","event":"registered","generation":"gen-a1","worker_id":"worker-az1-07"}
+{"at":"2026-11-08T09:59:57Z","event":"registered","generation":"gen-b1","worker_id":"worker-az1-09"}
+{"active_leases":3,"at":"2026-11-08T10:00:15Z","event":"heartbeat","generation":"gen-a1","worker_id":"worker-az1-07"}
+{"at":"2026-11-08T10:00:46Z","event":"drain_requested","generation":"gen-b1","request_id":"req_ops_204","worker_id":"worker-az1-09"}
+{"at":"2026-11-08T10:01:00Z","event":"registered","generation":"gen-b2","worker_id":"worker-az1-09"}
+{"at":"2026-11-08T10:01:01Z","delivery_id":"dlv_prod_004","event":"renew_rejected","generation":"gen-b1","worker_id":"worker-az1-09"}
+{"at":"2026-11-08T10:01:02Z","event":"registered","generation":"gen-c1","worker_id":"worker-az1-10"}
+{"active_leases":0,"at":"2026-11-08T10:01:15Z","event":"drain_complete","generation":"gen-b2","worker_id":"worker-az1-09"}
+{"at":"2026-11-08T10:03:21Z","delivery_id":"dlv_prod_008","event":"lease_lost","generation":"gen-d1","worker_id":"worker-az1-11"}

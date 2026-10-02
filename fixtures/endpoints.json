@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ep_01J8K4F3P8P8M7Q2KCPZ0V7M2A",
+    "tenant_id": "org_7d83f1",
+    "url": "https://callback-gw.example.net/v2/payments?route=cn-east",
+    "secret": "fixture_key_org_7d83f1",
+    "max_in_flight": 3
+  },
+  {
+    "id": "ep_01J8K4H77TGBHFF2B2ME9P1VMT",
+    "tenant_id": "org_7d83f1",
+    "url": "https://audit-gw.example.net/events/payment",
+    "secret": "fixture_key_audit_7d83f1",
+    "max_in_flight": 1
+  },
+  {
+    "id": "ep_01J8M0CFVK2HE2D62JAA0NCQ1G",
+    "tenant_id": "org_c91a20",
+    "url": "https://partner-relay.example.net/hooks/billing",
+    "secret": "fixture_key_org_c91a20",
+    "max_in_flight": 2
+  },
+  {
+    "id": "ep_01J8NDDAX7SJ4X29K5K5MPZ0BK",
+    "tenant_id": "org_42be19",
+    "url": "https://notify-edge.example.net/integrations/relayforge",
+    "secret": "fixture_key_org_42be19",
+    "max_in_flight": 5
+  }
+]

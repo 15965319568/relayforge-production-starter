@@ -1,0 +1,6 @@
+subscription_id,tenant_id,endpoint_id,topic_pattern,filter_json,enabled,updated_at
+sub_01J9KX17TB3CFV77VX96M3B8Q2,org_7d83f1,ep_01J8K4F3P8P8M7Q2KCPZ0V7M2A,payment.*,"{""currency"":""CNY""}",1,2026-10-03T08:52:01Z
+sub_01J9KX2AFN4B08QW8W0YPS5SR4,org_7d83f1,ep_01J8K4H77TGBHFF2B2ME9P1VMT,refund.#,"{}",1,2026-10-03T08:52:03Z
+sub_01J9KX3N6H82EAT0W6J9KABVM7,org_c91a20,ep_01J8M0CFVK2HE2D62JAA0NCQ1G,invoice.*,"{""amount"":{""$gte"":10000}}",1,2026-10-03T08:54:40Z
+sub_01J9KX5M0Q02JGKPK8RZ9Y6F0D,org_42be19,ep_01J8NDDAX7SJ4X29K5K5MPZ0BK,subscription.#,"{""plan"":{""$in"":[""growth-annual"",""enterprise""]}}",1,2026-10-03T08:55:12Z
+

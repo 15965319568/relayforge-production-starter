@@ -1,0 +1,8 @@
+{"ts":"2026-10-03T09:00:00.000Z","event":"rate.reserve","tenant_id":"org_7d83f1","worker":"worker-02","requested":1,"observed_before":1.0,"allowed":true,"observed_after":0.0}
+{"ts":"2026-10-03T09:00:00.004Z","event":"rate.reserve","tenant_id":"org_7d83f1","worker":"worker-07","requested":1,"observed_before":1.0,"allowed":true,"observed_after":0.0}
+{"ts":"2026-10-03T09:02:30.000Z","event":"circuit.open","endpoint_id":"ep_01J8K4F3P8P8M7Q2KCPZ0V7M2A","failures":5,"until":"2026-10-03T09:03:30Z"}
+{"ts":"2026-10-03T09:03:30.000Z","event":"circuit.probe","endpoint_id":"ep_01J8K4F3P8P8M7Q2KCPZ0V7M2A","worker":"worker-01","allowed":true,"probe":"probe-A"}
+{"ts":"2026-10-03T09:03:30.002Z","event":"circuit.probe","endpoint_id":"ep_01J8K4F3P8P8M7Q2KCPZ0V7M2A","worker":"worker-06","allowed":true,"probe":"probe-B"}
+{"ts":"2026-10-03T09:03:30.338Z","event":"circuit.result","endpoint_id":"ep_01J8K4F3P8P8M7Q2KCPZ0V7M2A","probe":"probe-B","outcome":"success"}
+{"ts":"2026-10-03T09:03:31.104Z","event":"circuit.result","endpoint_id":"ep_01J8K4F3P8P8M7Q2KCPZ0V7M2A","probe":"probe-A","outcome":"failure"}
+

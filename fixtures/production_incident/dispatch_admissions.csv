@@ -1,0 +1,9 @@
+delivery_id,tenant_id,endpoint_id,worker_id,decision,reason,admitted_at,completed_at,outcome
+dlv_prod_001,org-north,ep-payments-primary,worker-az1-07,allowed,,2026-11-08T10:00:00Z,2026-11-08T10:00:00Z,succeeded
+dlv_prod_002,org-north,ep-payments-primary,worker-az1-07,denied,rate_limited,2026-11-08T10:00:00Z,,deferred
+dlv_prod_003,org-south,ep-ledger-secondary,worker-az1-09,denied,circuit_open,2026-11-08T10:00:01Z,,deferred
+dlv_prod_004,org-south,ep-ledger-secondary,worker-az1-09,allowed,,2026-11-08T10:01:01Z,2026-11-08T10:01:02Z,retried
+dlv_prod_005,org-south,ep-ledger-secondary,worker-az1-10,allowed,,2026-11-08T10:01:02Z,2026-11-08T10:01:02Z,succeeded
+dlv_prod_006,org-north,ep-invoice-archive,worker-az1-07,allowed,,2026-11-08T10:02:11Z,2026-11-08T10:02:12Z,dead
+dlv_prod_007,org-north,ep-payments-primary,worker-az1-08,denied,tenant_capacity,2026-11-08T10:02:12Z,,deferred
+dlv_prod_008,org-east,ep-risk-events,worker-az1-11,allowed,,2026-11-08T10:03:20Z,2026-11-08T10:03:21Z,lease_lost

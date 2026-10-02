@@ -1,0 +1,7 @@
+{"ts":"2026-10-03T09:12:10.117Z","method":"GET","path":"/v1/audit","query":"tenant_id=org_7d83f1&kind=request&limit=100","status":200,"items":100,"cursor_alias":"cursor-A"}
+{"ts":"2026-10-03T09:12:13.881Z","method":"GET","path":"/v1/audit","query":"tenant_id=org_c91a20&kind=request&limit=100&cursor=cursor-A","status":200,"items":77,"cursor_alias":"cursor-B"}
+{"ts":"2026-10-03T09:14:59.870Z","method":"POST","path":"/v1/secrets/ep_01J8K4F3P8P8M7Q2KCPZ0V7M2A/rotate","status":201,"key_id":"v4","overlap_seconds":0}
+{"ts":"2026-10-03T09:15:00.000Z","event":"signature.verify","endpoint_id":"ep_01J8K4F3P8P8M7Q2KCPZ0V7M2A","key_id":"v3","accepted":true}
+{"ts":"2026-10-03T09:17:42.307Z","method":"POST","path":"/v1/workers/register","status":201,"worker_id":"worker-06","generation":"gen-new-f031"}
+{"ts":"2026-10-03T09:17:43.010Z","event":"worker.heartbeat","worker_id":"worker-06","generation":"gen-old-19a0","accepted":true}
+

@@ -1,0 +1,6 @@
+{"id":"evt_01J8QAQ2AFY84R1C0PS2NW3YH4","tenant_id":"org_7d83f1","topic":"payment.captured","idempotency_key":"capture:pay_8fa31c","payload":{"currency":"CNY","amount":43800,"payment_id":"pay_8fa31c","merchant_ref":"SO-20260920-18473"}}
+{"id":"evt_01J8QAR8Q9HSDZKCB6Q5X8K3AF","tenant_id":"org_7d83f1","topic":"refund.created","idempotency_key":"refund:rf_1d224a","payload":{"refund_id":"rf_1d224a","reason":"duplicate","amount":43800}}
+{"id":"evt_01J8QB5N7ZX2K9JY2E3DQQ6K32","tenant_id":"org_c91a20","topic":"invoice.overdue","idempotency_key":"invoice:inv_91c7:overdue:3","payload":{"invoice_id":"inv_91c7","days_overdue":3,"contact_locale":"zh-CN"}}
+{"id":"evt_01J8QBE7THSR5YFZ19XJZ5QFJQ","tenant_id":"org_42be19","topic":"subscription.renewed","idempotency_key":"renewal:sub_79b0:2026-09","payload":{"subscription_id":"sub_79b0","period_start":"2026-09-01","plan":"growth-annual"}}
+{"id":"evt_01J8QBG9YQ7ACDKY1RCA4V8FMR","tenant_id":"org_c91a20","topic":"invoice.payment_failed","idempotency_key":"invoice:inv_c2d8:attempt:2","payload":{"invoice_id":"inv_c2d8","attempt":2,"decline_code":"do_not_honor"}}
+{"id":"evt_01J8QBKH5Q21KV7H0M6A3R8SZP","tenant_id":"org_42be19","topic":"seat.limit_reached","idempotency_key":"workspace:ws_401a:seat-limit:20260920","payload":{"workspace_id":"ws_401a","active_seats":125,"licensed_seats":120}}
